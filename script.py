@@ -11,7 +11,7 @@ model = load_model("mnist_digit_recognizer11.h5")
 def preprocess_image(image):
     img = cv2.resize(image, (28, 28))
     img = img.astype('float32') / 255.0
-    img = img.reshape(1, 784) 
+    img = img.reshape(1, 784)
     return img
 
 class DigitRecognizer:
@@ -48,8 +48,8 @@ class DigitRecognizer:
     
     def paint(self, event):
         x, y = event.x, event.y
-        self.canvas.create_oval(x, y, x+10, y+10, fill='white', outline='white')
-        cv2.circle(self.image, (x, y), 10, 255, -1)
+        self.canvas.create_oval(x-5, y-5, x+5, y+5, fill='white', outline='white')
+        cv2.circle(self.image, (x, y), 15, 255, -1)
     
     def clear_canvas(self):
         self.canvas.delete("all")
