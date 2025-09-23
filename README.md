@@ -1,6 +1,6 @@
 # 🧠 Digit Recognition using Feedforward Neural Networks
-[![License](https://img.shields.io/github/license/SouriRishik/MNIST‑Dataset‑Prediction)](LICENSE)
-![Repo Size](https://img.shields.io/github/repo-size/SouriRishik/MNIST‑Dataset‑Prediction)
+[![License](https://img.shields.io/github/license/SouriRishik/MNIST-Dataset-Prediction)](LICENSE)
+![Repo Size](https://img.shields.io/github/repo-size/SouriRishik/MNIST-Dataset-Prediction)
 
 ## 📋 Abstract
 
